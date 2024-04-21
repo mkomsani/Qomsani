@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f04040; /* لون خلفية الصفحة */
+}
+
+#game-container {
+    margin-top: 100px;
+}
+
+#word {
+    font-size: 24px;
+}
+
+#answer {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#result {
+    margin-top: 10px;
+}

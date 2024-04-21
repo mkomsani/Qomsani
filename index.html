@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة ترتيب الكلمات تنفيذ قمصاني</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body dir="rtl">
+    <header>
+        <h1>لعبة ترتيب الكلمات تنفيذ قمصاني</h1>
+        <p>قم بترتيب الحروف بشكل صحيح لتحصل على الكلمة الصحيحة</p>
+    </header>
+    <div id="game-container">
+        <div id="word-container">
+            <img src="" alt="صورة" id="word-image">
+            <h2 id="word"></h2>
+        </div>
+        <input type="text" id="answer" placeholder="أدخل إجابتك">
+        <button onclick="checkAnswer()">تحقق</button>
+        <button id="restart-btn" onclick="initializeGame()">ابدأ من جديد</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
